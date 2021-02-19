@@ -18,5 +18,10 @@ public class ForgotPassword {
 		this.driver = driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
+	
+	
+	public void test() {
+		System.out.println("This is new code..");
+	}
 
 }
