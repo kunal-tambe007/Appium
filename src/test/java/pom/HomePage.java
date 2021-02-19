@@ -19,7 +19,9 @@ public class HomePage {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 
-	
+	public void test() {
+		System.out.println();
+	}
 	
 	
 	
